@@ -1,0 +1,2324 @@
+{
+  "contact_conf": {
+    "telegram": "@VIP3Pattinet"
+  },
+  "venue_conf": {
+    "teenpatti": [
+      {
+        "id": 7,
+        "ws": "wss://gamews.rummy999.xyz:9101",
+        "boot": 0.1,
+        "min_buyin": 5,
+        "chaal": 12.8,
+        "max_pot": 102.4,
+        "bench_num": 1000,
+        "rand_range": [
+          200,
+          500
+        ],
+        "min_money": 1,
+        "max_money": 60
+      },
+      {
+        "id": 11,
+        "ws": "wss://gamews.rummy999.xyz:9105",
+        "boot": 0.3,
+        "min_buyin": 5,
+        "chaal": 38.4,
+        "max_pot": 307.2,
+        "bench_num": 600,
+        "rand_range": [
+          200,
+          400
+        ],
+        "min_money": 15,
+        "max_money": 200
+      },
+      {
+        "id": 8,
+        "ws": "wss://gamews.rummy999.xyz:9102",
+        "boot": 1,
+        "min_buyin": 100,
+        "chaal": 128.0,
+        "max_pot": 1024.0,
+        "bench_num": 400,
+        "rand_range": [
+          100,
+          200
+        ],
+        "min_money": 100,
+        "max_money": 600
+      },
+      {
+        "id": 9,
+        "ws": "wss://gamews.rummy999.xyz:9103",
+        "boot": 10,
+        "min_buyin": 100,
+        "chaal": 384.0,
+        "max_pot": 3072.0,
+        "bench_num": 200,
+        "rand_range": [
+          100,
+          200
+        ],
+        "min_money": 300,
+        "max_money": 2000
+      },
+      {
+        "id": 10,
+        "ws": "wss://gamews.rummy999.xyz:9104",
+        "boot": 10,
+        "min_buyin": 1000,
+        "chaal": 1280.0,
+        "max_pot": 10240.0,
+        "bench_num": 50,
+        "rand_range": [
+          50,
+          150
+        ],
+        "min_money": 1000,
+        "max_money": 4000
+      }
+    ],
+    "fruit": [
+      {
+        "id": 310,
+        "ws": "wss://gamews.rummy999.xyz:9100",
+        "bench_num": 150,
+        "rand_range": [
+          10,
+          50
+        ],
+        "min_money": 100
+      }
+    ],
+    "car": [
+      {
+        "id": 460,
+        "ws": "wss://gamews.rummy999.xyz:9004/CarRoulette",
+        "bench_num": 150,
+        "rand_range": [
+          50,
+          100
+        ],
+        "min_money": 100
+      }
+    ],
+    "dvst": [
+      {
+        "id": 150,
+        "ws": "wss://gamews.rummy999.xyz:9002/ws",
+        "bench_num": 30,
+        "rand_range": [
+          20,
+          30
+        ],
+        "min_money": 100
+      }
+    ],
+    "crash": [
+      {
+        "id": 461,
+        "ws": "wss://gamews.rummy999.xyz:9003/ws",
+        "bench_num": 90,
+        "rand_range": [
+          50,
+          80
+        ],
+        "min_money": 100
+      }
+    ],
+    "jm": [
+      {
+        "id": 60,
+        "ws": "wss://gamews.rummy999.xyz:9005/ws",
+        "bench_num": 130,
+        "rand_range": [
+          50,
+          100
+        ],
+        "min_money": 100
+      }
+    ],
+    "updown": [
+      {
+        "id": 25,
+        "ws": "wss://gamews.rummy999.xyz:9006/ws",
+        "bench_num": 15,
+        "rand_range": [
+          5,
+          10
+        ],
+        "min_money": 100
+      }
+    ],
+    "lotto": [
+      {
+        "id": 300,
+        "ws": "wss://gamews.rummy999.xyz:9001/ws",
+        "bench_num": 145,
+        "rand_range": [
+          50,
+          102
+        ],
+        "min_money": 100
+      }
+    ],
+    "rb": [
+      {
+        "id": 50,
+        "ws": "wss://gamews.rummy999.xyz:9008/ws",
+        "bench_num": 152,
+        "rand_range": [
+          50,
+          105
+        ],
+        "min_money": 100
+      }
+    ],
+    "rummy": [
+      {
+        "id": 27,
+        "ws": "wss://gamews.rummy999.xyz:9200",
+        "bench_num": 2500,
+        "rand_range": [
+          500,
+          1000
+        ],
+        "min_money": 5,
+        "max_money": 40,
+        "boot": 0.05,
+        "max_pot": 5,
+        "player_num": 2
+      },
+      {
+        "id": 28,
+        "ws": "wss://gamews.rummy999.xyz:9201",
+        "bench_num": 1500,
+        "rand_range": [
+          200,
+          600
+        ],
+        "min_money": 20,
+        "max_money": 200,
+        "boot": 0.2,
+        "max_pot": 150,
+        "player_num": 2
+      },
+      {
+        "id": 29,
+        "ws": "wss://gamews.rummy999.xyz:9202",
+        "bench_num": 1000,
+        "rand_range": [
+          100,
+          200
+        ],
+        "min_money": 150,
+        "max_money": 400,
+        "boot": 1,
+        "max_pot": 400,
+        "player_num": 2
+      },
+      {
+        "id": 32,
+        "ws": "wss://gamews.rummy999.xyz:9205",
+        "bench_num": 800,
+        "rand_range": [
+          50,
+          100
+        ],
+        "min_money": 500,
+        "max_money": 2000,
+        "boot": 5,
+        "max_pot": 1500,
+        "player_num": 2
+      },
+      {
+        "id": 33,
+        "ws": "wss://gamews.rummy999.xyz:9206",
+        "bench_num": 200,
+        "rand_range": [
+          30,
+          100
+        ],
+        "min_money": 1000,
+        "max_money": 4000,
+        "boot": 10,
+        "max_pot": 3000,
+        "player_num": 2
+      },
+      {
+        "id": 34,
+        "ws": "wss://gamews.rummy999.xyz:9207",
+        "bench_num": 150,
+        "rand_range": [
+          50,
+          200
+        ],
+        "min_money": 2000,
+        "max_money": 9999999,
+        "boot": 20,
+        "max_pot": 10000,
+        "player_num": 2
+      },
+      {
+        "id": 35,
+        "ws": "wss://gamews.rummy999.xyz:9208",
+        "bench_num": 50,
+        "rand_range": [
+          5,
+          20
+        ],
+        "min_money": 5000,
+        "max_money": 9999999,
+        "boot": 50,
+        "max_pot": 40000,
+        "player_num": 2
+      },
+      {
+        "id": 212,
+        "ws": "wss://gamews.rummy999.xyz:9212",
+        "bench_num": 1500,
+        "rand_range": [
+          800,
+          1500
+        ],
+        "min_money": 20,
+        "max_money": 200,
+        "boot": 0.2,
+        "max_pot": 150,
+        "player_num": 6
+      },
+      {
+        "id": 213,
+        "ws": "wss://gamews.rummy999.xyz:9213",
+        "bench_num": 1000,
+        "rand_range": [
+          500,
+          800
+        ],
+        "min_money": 100,
+        "max_money": 600,
+        "boot": 1,
+        "max_pot": 400,
+        "player_num": 6
+      },
+      {
+        "id": 214,
+        "ws": "wss://gamews.rummy999.xyz:9214",
+        "bench_num": 500,
+        "rand_range": [
+          200,
+          300
+        ],
+        "min_money": 300,
+        "max_money": 1000,
+        "boot": 3,
+        "max_pot": 600,
+        "player_num": 6
+      },
+      {
+        "id": 215,
+        "ws": "wss://gamews.rummy999.xyz:9215",
+        "bench_num": 200,
+        "rand_range": [
+          100,
+          200
+        ],
+        "min_money": 500,
+        "max_money": 2000,
+        "boot": 5,
+        "max_pot": 1500,
+        "player_num": 6
+      },
+      {
+        "id": 216,
+        "ws": "wss://gamews.rummy999.xyz:9216",
+        "bench_num": 120,
+        "rand_range": [
+          30,
+          100
+        ],
+        "min_money": 1000,
+        "max_money": 4000,
+        "boot": 10,
+        "max_pot": 3000,
+        "player_num": 6
+      },
+      {
+        "id": 217,
+        "ws": "wss://gamews.rummy999.xyz:9217",
+        "bench_num": 20,
+        "rand_range": [
+          20,
+          100
+        ],
+        "min_money": 2000,
+        "max_money": 9999999,
+        "boot": 20,
+        "max_pot": 999999999,
+        "player_num": 6
+      }
+    ],
+    "bac3": [
+      {
+        "id": 180,
+        "ws": "wss://gamews.rummy999.xyz:9009/Bac3patti",
+        "bench_num": 152,
+        "rand_range": [
+          50,
+          105
+        ],
+        "min_money": 100
+      }
+    ]
+  },
+  "venue_ai_conf": {
+    "60": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 120,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 118,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 122,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 125,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 140,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 180,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 190,
+        "player_range": [
+          40,
+          70
+        ]
+      }
+    ],
+    "150": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 120,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 118,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 122,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 125,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 140,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 180,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 190,
+        "player_range": [
+          40,
+          70
+        ]
+      }
+    ],
+    "25": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 120,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 118,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 122,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 125,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 140,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 180,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 190,
+        "player_range": [
+          40,
+          70
+        ]
+      }
+    ],
+    "461": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 120,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 118,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 122,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 125,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 130,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 140,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 165,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 145,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 150,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 155,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 160,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 170,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 180,
+        "player_range": [
+          40,
+          70
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 190,
+        "player_range": [
+          40,
+          70
+        ]
+      }
+    ],
+    "180": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 37,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 32,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 28,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 26,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 26,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 26,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 26,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 28,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 30,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 32,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 34,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 35,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 34,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 31,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 30,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 31,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 32,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 33,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 34,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 37,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 38,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 38,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 37,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 41,
+        "player_range": [
+          10,
+          15
+        ]
+      }
+    ],
+    "460": [
+      {
+        "times": [
+          0,
+          1
+        ],
+        "playernum": 17,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          1,
+          2
+        ],
+        "playernum": 15,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          2,
+          3
+        ],
+        "playernum": 13,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          3,
+          4
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          4,
+          5
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          5,
+          6
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          6,
+          7
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          7,
+          8
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          8,
+          9
+        ],
+        "playernum": 12,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          9,
+          10
+        ],
+        "playernum": 14,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          10,
+          11
+        ],
+        "playernum": 14,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          11,
+          12
+        ],
+        "playernum": 15,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          12,
+          13
+        ],
+        "playernum": 16,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          13,
+          14
+        ],
+        "playernum": 15,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          14,
+          15
+        ],
+        "playernum": 14,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          15,
+          16
+        ],
+        "playernum": 14,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          16,
+          17
+        ],
+        "playernum": 14,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          17,
+          18
+        ],
+        "playernum": 15,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          18,
+          19
+        ],
+        "playernum": 15,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          18,
+          20
+        ],
+        "playernum": 16,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          20,
+          21
+        ],
+        "playernum": 17,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          21,
+          22
+        ],
+        "playernum": 18,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          22,
+          23
+        ],
+        "playernum": 19,
+        "player_range": [
+          10,
+          15
+        ]
+      },
+      {
+        "times": [
+          23,
+          0
+        ],
+        "playernum": 19,
+        "player_range": [
+          10,
+          15
+        ]
+      }
+    ]
+  },
+  "ai_begin_num_conf": {
+    "60": {
+      "begin_id": 67000,
+      "num": 300
+    },
+    "150": {
+      "begin_id": 69300,
+      "num": 300
+    },
+    "25": {
+      "begin_id": 65100,
+      "num": 600
+    },
+    "461": {
+      "begin_id": 67400,
+      "num": 300
+    },
+    "180": {
+      "begin_id": 69600,
+      "num": 300
+    },
+    "460": {
+      "begin_id": 69900,
+      "num": 300
+    }
+  },
+  "ai_bet_conf": [
+    {
+      "chance": 10,
+      "bet_range": [
+        20,
+        500
+      ],
+      "money_range": [
+        20,
+        1000
+      ]
+    },
+    {
+      "chance": 30,
+      "bet_range": [
+        100,
+        2000
+      ],
+      "money_range": [
+        500,
+        10000
+      ]
+    },
+    {
+      "chance": 80,
+      "bet_range": [
+        1000,
+        20000
+      ],
+      "money_range": [
+        1000,
+        100000
+      ]
+    },
+    {
+      "chance": 95,
+      "bet_range": [
+        5000,
+        50000
+      ],
+      "money_range": [
+        3000,
+        150000
+      ]
+    },
+    {
+      "chance": 99,
+      "bet_range": [
+        20000,
+        100000
+      ],
+      "money_range": [
+        10000,
+        200000
+      ]
+    },
+    {
+      "chance": 100,
+      "bet_range": [
+        100000,
+        250000
+      ],
+      "money_range": [
+        80000,
+        500000
+      ]
+    }
+  ],
+  "laba_conf": {
+    "ws": "wss://gamews.rummy999.xyz:9007/ws"
+  },
+  "game_conf": {
+    "ip_limit": true,
+    "wlist_ip": []
+  },
+  "vip_level_conf": {
+    "1": [
+      300,
+      1100
+    ],
+    "2": [
+      1100,
+      5500
+    ],
+    "3": [
+      5500,
+      15000
+    ],
+    "4": [
+      15000,
+      30000
+    ],
+    "5": [
+      30000,
+      60000
+    ],
+    "6": [
+      60000,
+      200000
+    ],
+    "7": [
+      200000,
+      1000000
+    ],
+    "8": [
+      1000000,
+      5000000
+    ],
+    "9": [
+      5000000,
+      10000000
+    ],
+    "10": [
+      10000000,
+      9999999999
+    ]
+  },
+  "vip_rebate_conf": {
+    "1": {
+      "bmoney_rate": 0.1,
+      "max_bmoney": 20,
+      "bonus_rate": 0.1,
+      "max_bonus": 10
+    },
+    "2": {
+      "bmoney_rate": 0.2,
+      "max_bmoney": 100,
+      "bonus_rate": 0.3,
+      "max_bonus": 50
+    },
+    "3": {
+      "bmoney_rate": 0.2,
+      "max_bmoney": 200,
+      "bonus_rate": 0.5,
+      "max_bonus": 100
+    },
+    "4": {
+      "bmoney_rate": 0.3,
+      "max_bmoney": 260,
+      "bonus_rate": 0.5,
+      "max_bonus": 150
+    },
+    "5": {
+      "bmoney_rate": 0.4,
+      "max_bmoney": 400,
+      "bonus_rate": 0.5,
+      "max_bonus": 200
+    },
+    "6": {
+      "bmoney_rate": 0.4,
+      "max_bmoney": 600,
+      "bonus_rate": 0.7,
+      "max_bonus": 300
+    },
+    "7": {
+      "bmoney_rate": 0.6,
+      "max_bmoney": 1000,
+      "bonus_rate": 0.7,
+      "max_bonus": 500
+    },
+    "8": {
+      "bmoney_rate": 0.6,
+      "max_bmoney": 3000,
+      "bonus_rate": 1,
+      "max_bonus": 1000
+    },
+    "9": {
+      "bmoney_rate": 0.8,
+      "max_bmoney": 5000,
+      "bonus_rate": 1,
+      "max_bonus": 2000
+    },
+    "10": {
+      "bmoney_rate": 1,
+      "max_bmoney": 6000,
+      "bonus_rate": 1,
+      "max_bonus": 2500
+    }
+  },
+  "vip_withdraw_conf": {
+    "0": {
+      "withdraw_count": 2,
+      "withdraw_sum": 1000,
+      "withdraw_rate": 5
+    },
+    "1": {
+      "withdraw_count": 3,
+      "withdraw_sum": 5000,
+      "withdraw_rate": 5
+    },
+    "2": {
+      "withdraw_count": 3,
+      "withdraw_sum": 20000,
+      "withdraw_rate": 5
+    },
+    "3": {
+      "withdraw_count": 4,
+      "withdraw_sum": 30000,
+      "withdraw_rate": 5
+    },
+    "4": {
+      "withdraw_count": 4,
+      "withdraw_sum": 50000,
+      "withdraw_rate": 5
+    },
+    "5": {
+      "withdraw_count": 5,
+      "withdraw_sum": 80000,
+      "withdraw_rate": 5
+    },
+    "6": {
+      "withdraw_count": 6,
+      "withdraw_sum": 100000,
+      "withdraw_rate": 5
+    },
+    "7": {
+      "withdraw_count": 6,
+      "withdraw_sum": 150000,
+      "withdraw_rate": 5
+    },
+    "8": {
+      "withdraw_count": 8,
+      "withdraw_sum": 300000,
+      "withdraw_rate": 5
+    },
+    "9": {
+      "withdraw_count": 8,
+      "withdraw_sum": 350000,
+      "withdraw_rate": 5
+    },
+    "10": {
+      "withdraw_count": 10,
+      "withdraw_sum": 400000,
+      "withdraw_rate": 5
+    }
+  }
+}

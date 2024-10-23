@@ -1,0 +1,130 @@
+{
+  "taurus": [
+    {
+      "consume": {
+        "activity_start": "2024-08-14 00:00:00",
+        "activity_end": "2024-08-15 23:59:59",
+        "betting": 1000,
+        "consume_conf": [
+          {
+            "bull_type": 1,
+            "max_reward": 300,
+            "reward_type": 3,
+            "debris": 1
+          },
+          {
+            "bull_type": 2,
+            "max_reward": 3000,
+            "reward_type": 3,
+            "debris": 5
+          },
+          {
+            "bull_type": 3,
+            "max_reward": 30000,
+            "reward_type": 3,
+            "debris": 50
+          }
+        ],
+        "reward_configs": [
+          {
+            "bull_type": 1,
+            "count": 1,
+            "reward": [
+              {
+                "amount": 300,
+                "probability": 0.004
+              },
+              {
+                "amount": 200,
+                "probability": 0.02
+              },
+              {
+                "amount": 100,
+                "probability": 0.08
+              },
+              {
+                "amount": 50,
+                "probability": 0.1
+              },
+              {
+                "amount": 10,
+                "probability": 0.24
+              },
+              {
+                "amount": 10,
+                "probability": 0.556
+              }
+            ]
+          },
+          {
+            "bull_type": 2,
+            "count": 5,
+            "reward": [
+              {
+                "amount": 3000,
+                "probability": 0.0003
+              },
+              {
+                "amount": 2000,
+                "probability": 0.0033
+              },
+              {
+                "amount": 700,
+                "probability": 0.04
+              },
+              {
+                "amount": 250,
+                "probability": 0.2
+              },
+              {
+                "amount": 100,
+                "probability": 0.4
+              },
+              {
+                "amount": 50,
+                "probability": 0.3563
+              }
+            ]
+          },
+          {
+            "bull_type": 3,
+            "count": 50,
+            "reward": [
+              {
+                "amount": 30000,
+                "probability": 0.004
+              },
+              {
+                "amount": 10000,
+                "probability": 0.006
+              },
+              {
+                "amount": 5000,
+                "probability": 0.1
+              },
+              {
+                "amount": 2000,
+                "probability": 0.2
+              },
+              {
+                "amount": 1000,
+                "probability": 0.4
+              },
+              {
+                "amount": 300,
+                "probability": 0.2936
+              }
+            ],
+            "conditions": {
+              "first": 1.0,
+              "second": 0.5,
+              "third_plus": 0.1
+            }
+          }
+        ]
+      },
+      "white_list": [
+      ]
+    }
+  ]
+}

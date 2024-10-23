@@ -1,0 +1,776 @@
+{
+  "taurus": {
+    "consume": {
+      "betting": 1000,
+      "lottery_max_nums": 200,
+      "consume_conf": {
+        "1": {
+          "max_reward": 300,
+          "reward_type": 3,
+          "debris": 1
+        },
+        "2": {
+          "max_reward": 3000,
+          "reward_type": 3,
+          "debris": 5
+        },
+        "3": {
+          "max_reward": 30000,
+          "reward_type": 3,
+          "debris": 50
+        }
+      },
+      "reward_configs": {
+        "1": {
+          "count": 1,
+          "reward": [
+            {
+              "amount": 300,
+              "probability": 0.004
+            },
+            {
+              "amount": 200,
+              "probability": 0.02
+            },
+            {
+              "amount": 100,
+              "probability": 0.08
+            },
+            {
+              "amount": 50,
+              "probability": 0.1
+            },
+            {
+              "amount": 10,
+              "probability": 0.24
+            },
+            {
+              "amount": 10,
+              "probability": 0.556
+            }
+          ]
+        },
+        "2": {
+          "bull_type": 2,
+          "count": 5,
+          "reward": [
+            {
+              "amount": 3000,
+              "probability": 0.0003
+            },
+            {
+              "amount": 2000,
+              "probability": 0.0033
+            },
+            {
+              "amount": 700,
+              "probability": 0.04
+            },
+            {
+              "amount": 250,
+              "probability": 0.2
+            },
+            {
+              "amount": 50,
+              "probability": 0.3563
+            },
+            {
+              "amount": 100,
+              "probability": 0.4
+            }
+          ]
+        },
+        "3": {
+          "count": 50,
+          "reward": [
+            {
+              "amount": 30000,
+              "probability": 0.004
+            },
+            {
+              "amount": 10000,
+              "probability": 0.006
+            },
+            {
+              "amount": 5000,
+              "probability": 0.1
+            },
+            {
+              "amount": 2000,
+              "probability": 0.2
+            },
+            {
+              "amount": 1000,
+              "probability": 0.4
+            },
+            {
+              "amount": 300,
+              "probability": 0.2936
+            }
+          ],
+          "conditions": {
+            "first": 1.0,
+            "second": 0.5,
+            "third_plus": 0.1
+          }
+        }
+      },
+      "ranking_rewards": [
+        {
+          "rank": 1,
+          "reward": 10000
+        },
+        {
+          "rank": 2,
+          "reward": 6000
+        },
+        {
+          "rank": 3,
+          "reward": 3000
+        },
+        {
+          "rank_range": "4-10",
+          "reward": 1000
+        },
+        {
+          "rank_range": "11-50",
+          "reward": 500
+        }
+      ]
+    },
+    "white_list": [
+    ],
+    "robot_max_id": 100000,
+    "bull_type": {
+      "1": "绿牛",
+      "2": "蓝牛",
+      "3": "紫牛"
+    },
+    "robot_config": {
+      "2": [
+        {
+          "fen": {
+            "max": 120,
+            "min": 91
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 90,
+            "min": 46
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 45,
+            "min": 24
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 24,
+            "min": 13
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 12,
+            "min": 6
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "4": [
+        {
+          "fen": {
+            "max": 400,
+            "min": 180
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 300,
+            "min": 144
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 150,
+            "min": 108
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 80,
+            "min": 41
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 40,
+            "min": 20
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "6": [
+        {
+          "fen": {
+            "max": 480,
+            "min": 300
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 280,
+            "min": 240
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 210,
+            "min": 180
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 79,
+            "min": 68
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 39,
+            "min": 33
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "8": [
+        {
+          "fen": {
+            "max": 600,
+            "min": 550
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 480,
+            "min": 440
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 360,
+            "min": 330
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 135,
+            "min": 124
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 66,
+            "min": 61
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "10": [
+        {
+          "fen": {
+            "max": 1000,
+            "min": 801
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 800,
+            "min": 640
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 600,
+            "min": 480
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 225,
+            "min": 180
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 110,
+            "min": 88
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "12": [
+        {
+          "fen": {
+            "max": 1350,
+            "min": 1150
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 1080,
+            "min": 920
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 810,
+            "min": 390
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 304,
+            "min": 259
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 149,
+            "min": 127
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "14": [
+        {
+          "fen": {
+            "max": 1850,
+            "min": 1651
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 1480,
+            "min": 1321
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 1110,
+            "min": 991
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 416,
+            "min": 371
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 204,
+            "min": 182
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "16": [
+        {
+          "fen": {
+            "max": 2150,
+            "min": 2000
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 1725,
+            "min": 1600
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 1290,
+            "min": 1200
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 484,
+            "min": 450
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 237,
+            "min": 220
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "18": [
+        {
+          "fen": {
+            "max": 2550,
+            "min": 2300
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 2040,
+            "min": 1840
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 1530,
+            "min": 1380
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 574,
+            "min": 518
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 281,
+            "min": 253
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "20": [
+        {
+          "fen": {
+            "max": 3000,
+            "min": 2700
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 2400,
+            "min": 2160
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 1800,
+            "min": 1620
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 675,
+            "min": 608
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 320,
+            "min": 297
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "22": [
+        {
+          "fen": {
+            "max": 3650,
+            "min": 3300
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 2920,
+            "min": 2640
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 2190,
+            "min": 1980
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 821,
+            "min": 743
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 402,
+            "min": 363
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ],
+      "23": [
+        {
+          "fen": {
+            "max": 4000,
+            "min": 3700
+          },
+          "no": {
+            "max": 1,
+            "min": 1
+          }
+        },
+        {
+          "fen": {
+            "max": 3200,
+            "min": 2960
+          },
+          "no": {
+            "max": 2,
+            "min": 2
+          }
+        },
+        {
+          "fen": {
+            "max": 2400,
+            "min": 2220
+          },
+          "no": {
+            "max": 3,
+            "min": 3
+          }
+        },
+        {
+          "fen": {
+            "max": 900,
+            "min": 833
+          },
+          "no": {
+            "max": 10,
+            "min": 4
+          }
+        },
+        {
+          "fen": {
+            "max": 440,
+            "min": 407
+          },
+          "no": {
+            "max": 50,
+            "min": 11
+          }
+        }
+      ]
+    }
+  }
+}

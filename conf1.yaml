@@ -1,0 +1,647 @@
+redis:
+  sess:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis1:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis2:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis3:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis4:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis5:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis6:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis7:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis8:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis9:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis10:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis11:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis12:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis13:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis14:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis15:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis16:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis17:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis18:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis19:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis20:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis21:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis22:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis23:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis24:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis25:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis26:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis27:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis28:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis29:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  data_ai:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+      redis01:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis02:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis03:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis04:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis05:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis06:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis07:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis08:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+      redis09:
+        host: '192.168.2.100'
+        port: 6379
+        pass: "123456"
+
+  data:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis1:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis2:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis3:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis4:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis5:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis6:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis7:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis8:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis9:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis10:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis11:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis12:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis13:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis14:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis15:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis16:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis17:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis18:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis19:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis20:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis21:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis22:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis23:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis24:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis25:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis26:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis27:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis28:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis29:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  plays:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis01:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis02:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis03:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis04:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+
+    redis05:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis06:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis07:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis08:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+    redis09:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  cache:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  temp:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  ttl:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  bet:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  play:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  rot_cache:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  log_agent:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  rank:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  user:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  cross:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  dealer:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+  tmp:
+    redis0:
+      host: '192.168.2.100'
+      port: 6379
+      pass: "123456"
+
+mysql:
+  main:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_game'
+    charset: 'utf8'
+
+  ch:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_ch'
+    charset: 'utf8'
+
+  slave:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_game'
+    charset: 'utf8'
+
+  conf:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_conf'
+    charset: 'utf8'
+
+  flow_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_flow'
+    charset: 'utf8'
+
+  flow_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_flow'
+    charset: 'utf8'
+
+  bet_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_bet'
+    charset: 'utf8'
+
+  robot_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_robot'
+    charset: 'utf8'
+
+  bet_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_game'
+    charset: 'utf8'
+
+  robot_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_robot'
+    charset: 'utf8'
+
+  dc_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'dc'
+    charset: 'utf8'
+
+  dc_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'dc'
+    charset: 'utf8'
+
+  #  dealer:
+  #    host: '192.168.2.100'
+  #    port: 3306
+  #    username: 'root'
+  #    password: '123456'
+  #    dbname: 'yd_dealer'
+  #    charset: 'utf8'
+
+  exe_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_exe'
+    charset: 'utf8'
+
+  exe_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_exe'
+    charset: 'utf8'
+
+  player_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_player'
+    charset: 'utf8'
+
+  player_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_player'
+    charset: 'utf8'
+
+  bury_m:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_bury'
+    charset: 'utf8'
+
+  bury_s:
+    host: '192.168.2.100'
+    port: 3306
+    username: 'root'
+    password: '123456'
+    dbname: 'yd_bury'
+    charset: 'utf8'
+
+mq:
+  host: '192.168.2.100'
+  port: '5672'
+  vhost: '/'
+  username: 'admin'
+  password: '123456'
