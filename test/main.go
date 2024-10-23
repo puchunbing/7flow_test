@@ -1,7 +1,7 @@
 package main
 
 import (
-	"awesomeProject/log"
+	"7flow_test/log"
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"

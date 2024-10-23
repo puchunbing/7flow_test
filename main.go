@@ -1,8 +1,8 @@
 package main
 
 import (
-	"awesomeProject/config"
-	"awesomeProject/log"
+	"7flow_test/config"
+	"7flow_test/log"
 	"context"
 	"database/sql"
 	"encoding/json"

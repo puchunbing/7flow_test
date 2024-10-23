@@ -1,4 +1,4 @@
-module awesomeProject
+module 7flow_test
 
 go 1.22
 
