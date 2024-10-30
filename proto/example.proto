@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package example;
+option go_package = "/examplepb";
+// 定义一个简单的消息类型
+message SimpleMessage {
+  int32 id = 1;
+  string content = 2;
+}
+
+// 定义一个服务
+service ExampleService {
+  // 定义一个简单的 RPC 方法
+  rpc GetSimpleMessage (SimpleMessageRequest) returns (SimpleMessageResponse);
+}
+
+// 定义请求消息
+message SimpleMessageRequest {
+  int32 id = 1;
+}
+
+// 定义响应消息
+message SimpleMessageResponse {
+  SimpleMessage message = 1;
+}
+
+//protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative example.proto
